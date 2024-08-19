@@ -78,7 +78,7 @@ std::string getResult(const std::string& str, const std::string& answer) {
     return std::to_string(strike) + "S, " + std::to_string(ball) + "B";
 }
 
-int main() {
+int main() { // main 
     int count = 0;
     std::string threedigits = genRandom(); // 랜덤 숫자 생성
 
